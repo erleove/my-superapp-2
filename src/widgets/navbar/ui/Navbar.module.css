@@ -1,0 +1,10 @@
+:root { --accent: wheat; }
+
+.title { color: var(--accent) }
+
+.section { color: var(--accent) }
+.list { list-style: none; padding: 0; display: flex; gap: 8px; }
+
+.link { color: var(--accent); text-decoration: none; }
+.link:hover { text-decoration: underline; }
+.active { font-weight: 600; text-decoration: underline; }

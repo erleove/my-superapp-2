@@ -1,0 +1,12 @@
+.instaContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  grid-gap: 32px;
+  grid-auto-flow: dense;
+  min-width: 250px;
+}
+
+.instaItem:nth-child(5n + 2) {
+  grid-column: span 2;
+  grid-row: span 2;
+}

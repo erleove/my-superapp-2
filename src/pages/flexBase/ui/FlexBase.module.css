@@ -1,0 +1,25 @@
+.flexBaseContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flexBaseItem { 
+  flex-basis: 23vw;
+  flex-grow: 1;
+}
+
+@media (max-width: 1280px) {
+  .flexBaseItem { 
+    flex-basis: 30vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .flexBaseItem { 
+    flex-basis: 50vw;
+    flex-shrink: 1;
+  }
+}
