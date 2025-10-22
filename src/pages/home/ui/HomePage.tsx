@@ -4,7 +4,6 @@ export function HomePage() {
   return (
     <>
       <Navbar />
-      <main style={{ padding: 16 }}>Главная</main>
     </>
   );
 }
