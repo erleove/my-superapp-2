@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 import s from "./Navbar.module.css";
 
 const links = [
-  { to: "/grid-base", label: "Grid Base" },
-  { to: "/flex-base", label: "Flex Base" },
-  { to: "/insta", label: "Insta" },
+  { to: "/my-superapp-2/grid-base", label: "Grid Base" },
+  { to: "/my-superapp-2/flex-base", label: "Flex Base" },
+  { to: "/my-superapp-2/insta", label: "Insta" },
 ];
 
 export const Navbar = () => {
